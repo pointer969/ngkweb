@@ -38,7 +38,8 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 .tile .tile-header {
-  background-image: url("https://res.cloudinary.com/dgmilxzy7/image/upload/c_scale,w_500,o_75,b_rgb:07beb8/v1506735375/CodePen/ViddenPixel.jpg");
+  /* background-image: url("https://res.cloudinary.com/dgmilxzy7/image/upload/c_scale,w_500,o_75,b_rgb:07beb8/v1506735375/CodePen/ViddenPixel.jpg"); */
+  background-image: "img/loginback.png";
   background-position: center;
   background-size: cover;
   height: 12rem;
@@ -93,10 +94,10 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
 }
 .form-input input:hover ~ .underline, .form-input input:focus ~ .underline {
-  background-color: #07beb8;
+  background-color: #76807f;
 }
 .form-input input:hover ~ .label, .form-input input:focus ~ .label {
-  color: #07beb8;
+  color: #76807f;
 }
 .form-input input:focus ~ .underline {
   height: 2px;
@@ -129,11 +130,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-irenic {
-  background-color: #07beb8;
+  background-color: #76807f;
   color: white;
 }
 .btn-irenic:hover, .btn-irenic:focus, .btn-irenic:active {
-  background-color: #06a5a0;
+  background-color: #d64622;
 }
 
 .btn-serene {
@@ -217,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .submit-container #submit.pending {
   transform: scale(0.55, 1.5);
-  background-color: #07beb8;
+  background-color: #76807f;
   border-radius: 50%;
   opacity: 1;
 }
@@ -243,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 .submit-container .login-pending {
   height: 3rem;
   width: 3rem;
-  background-color: #07beb8;
+  background-color: #76807f;
   position: absolute;
   border-radius: 50%;
   right: 1rem;
